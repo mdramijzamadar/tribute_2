@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}  
+body{
+    font-family: 'Young Serif', serif;
+    color: #fff;
+    background-color: black;
+    
+}
+.title{
+    font-size: 1.6rem;
+    padding: 1.2rem;
+    text-align: center;
+}
+.tribute{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 65rem;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+}
+.tribute img{
+    max-width: 100%;
+    display: block;
+    margin-left:120px;
+}
+.tribute blockquote{
+    text-align: center;
+    font-size: 1.5rem;
+}
+h2{
+    padding-left: 18rem;
+}
+.bio ul{
+    padding-left:19rem ;
+    padding-top: 1rem;
+}
